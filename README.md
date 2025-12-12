@@ -1,4 +1,4 @@
-# Speech Processing: Voiced / Unvoiced / Background
+# Introduction to Speech Processing Final Project: Voiced / Unvoiced / Background
 
 This project implements three signal-processing heuristics to label speech frames as
 background (-1), unvoiced (0), or voiced (1). A speaker-recognition task is used as
