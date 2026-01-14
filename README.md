@@ -23,7 +23,7 @@ derived from the predicted labels) as a proxy for segmentation quality.
 - Columns: time_s, label (-1=background, 0=unvoiced, 1=voiced)
 - Algorithms: HHTC (time-domain), SSC (spectral shape), HDGC (dual-geometry)
 
-## Algorithms (high level)
+## Algorithms
 - HHTC: short-time energy/RMS gate, zero-crossing rate, autocorrelation peak,
   plus temporal smoothing.
 - SSC: spectral centroid, flatness, rolloff, ZCR with percentile thresholds on
